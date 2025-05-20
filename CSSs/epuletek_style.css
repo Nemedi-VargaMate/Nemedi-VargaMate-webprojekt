@@ -1,11 +1,12 @@
 table{
-    
+    border: 3px;
+    border-style: double;
 }
 th{
-
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 td{
-
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 a:link {
     color: rgb(67, 167, 255);

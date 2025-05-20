@@ -1,17 +1,7 @@
 body{
-
-}
-h1{
-
-}
-h2{
-
-}
-p{
-
-}
-ul{
-    
+    background-image:url(../pictures/center.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 a:link {
     color: rgb(67, 167, 255);
