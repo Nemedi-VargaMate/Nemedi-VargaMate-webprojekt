@@ -1,6 +1,6 @@
 body{
-    background-image:url(/iron-order-1919-screenshot-5_jpg_1640.jpg) ;
-    background-size: 100%;
+    background-image: url("../pictures/main_background.webp");
+    background-size: cover;
     background-repeat: no-repeat;
 }
 a:link {
