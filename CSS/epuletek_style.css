@@ -1,42 +1,54 @@
 table{
-    border: 3px;
+    border: 6px;
     border-style: double;
+    margin-left: 10%;
+    margin-right: 30%;
+    float: left;
+    border-color: rgb(0, 0, 0);
 }
 th{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 3px;
+    border-style: double;
 }
 td{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 3px;
+    border-style: double;
 }
 a:link {
-    color: rgb(67, 167, 255);
+    color: rgb(131, 70, 0);
     background-color: transparent;
     text-decoration: none;
 }
 a:visited {
-    color: rgb(0, 101, 189);
+    color: rgb(189, 107, 0);
     background-color: transparent;
     text-decoration: none;
 }
 a:hover {
-    color: red;
+    color: rgb(255, 166, 0);
     background-color: transparent;
     text-decoration: underline;
 }
 a:active {
-    color: rgb(139, 0, 0);
+    color: rgb(139, 39, 0);
     background-color: transparent;
     text-decoration: underline;
 }
 tr:nth-child(odd){
-    background-color: rgba(192, 0, 0, 0.404);
+    background-color: rgba(185, 185, 185, 0.479);
 }
 tr:nth-child(even){
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(77, 76, 76, 0.842);
 }
 body{
     background-image: url("../pictures/epületek_background.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 110%;
+    color: rgb(104, 0, 0);
+}
+.pulet_kepek{
+   width: 5%;
 }
