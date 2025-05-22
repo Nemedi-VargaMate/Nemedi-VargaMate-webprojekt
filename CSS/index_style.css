@@ -1,8 +1,9 @@
 body{
-    background-image: url("../pictures/main_background.webp");
+    background-image: url("../pictures/index_background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-size: 100%;
 }
 a:link {
     color: rgb(133, 0, 0);

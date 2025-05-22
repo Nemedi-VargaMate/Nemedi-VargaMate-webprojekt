@@ -23,3 +23,7 @@ a:active {
     background-color: transparent;
     text-decoration: underline;
 }
+body{
+    background-image: url("../pictures/bemutatas_background.png");
+    background-attachment: fixed;
+}
