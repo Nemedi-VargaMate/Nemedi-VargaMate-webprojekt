@@ -1,9 +1,8 @@
 body{
     background-image: url("../pictures/index_background.jpg");
-    background-size: cover;
     background-repeat: no-repeat;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-size: 100%;
+    background-attachment: fixed;
 }
 a:link {
     color: rgb(133, 0, 0);
@@ -27,5 +26,35 @@ a:active {
 }
 .jegyzet{
     margin-right: 1%;
-    margin-left: 80%;
+    margin-left:80%;
+}
+
+#epul{
+    float: right;
+    width: 100%;
+}
+#bemut{
+    float: right;
+    width: 100%;
+}
+#hads{
+    float: right;
+    width: 100%;
+}
+.kepalairas{
+    text-align: center;
+    color: rgb(150, 0, 0);  
+    background-color: rgb(54, 54, 54);
+    border-radius: 1%;
+    border-width: 10%;
+}
+.kepek{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+}
+.h1{
+    font-size: 10000px;
+    margin-left: 50%;
+    margin-right: 50%;
 }
