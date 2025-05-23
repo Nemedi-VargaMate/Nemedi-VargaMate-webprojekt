@@ -40,3 +40,6 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+img{
+    width: 20%;
+}

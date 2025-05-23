@@ -53,8 +53,7 @@ a:active {
     margin-right: 10%;
     margin-bottom: 2%;
 }
-.h1{
-    font-size: 10000px;
-    margin-left: 50%;
-    margin-right: 50%;
+h1{
+    font-size: 60px;
+    text-align: center;
 }
