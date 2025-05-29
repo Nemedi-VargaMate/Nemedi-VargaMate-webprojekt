@@ -3,6 +3,12 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
+    color: rgb(133, 0, 0);
+}
+p{
+    color: rgb(133, 0, 0);
+    font-size: 30px;
+    text-align: center;
 }
 a:link {
     color: rgb(133, 0, 0);
@@ -47,6 +53,7 @@ a:active {
     background-color: rgb(54, 54, 54);
     border-radius: 1%;
     border-width: 10%;
+    font-size: 20px;
 }
 .kepek{
     margin-left: 10%;
@@ -54,6 +61,6 @@ a:active {
     margin-bottom: 2%;
 }
 h1{
-    font-size: 60px;
+    font-size: 100px;
     text-align: center;
 }
