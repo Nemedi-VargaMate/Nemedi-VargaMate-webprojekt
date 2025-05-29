@@ -3,7 +3,7 @@ table{
     border-image: url("../pictures/hadseregek_tableborder.avif");
     margin-right: 5%;
     margin-left: 5%;
-    color: rgb(0, 0, 0);
+    color: rgb(207, 207, 207);
     border-color: black;
 }
 th{
@@ -33,14 +33,14 @@ a:active {
     text-decoration: underline;
 }
 tr:nth-child(odd){
-    background-color: rgba(175, 42, 30, 0.692);
+    background-color: rgba(122, 3, 3, 0.692);
 }
 tr:nth-child(even){
-    background-color: rgba(255, 93, 5, 0.589);
+    background-color: rgba(150, 52, 0, 0.589);
 }
 body{
     background-image: url("../pictures/hadseregek_background.jpg");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -56,4 +56,12 @@ h1{
     margin-top: 10%;
     margin-bottom: 10%;
     color: rgb(226, 0, 0);
+}
+div{
+    width: 100px;
+    transition: width 5s;
+    float: right;
+}
+div:hover {
+ width: 500px;
 }

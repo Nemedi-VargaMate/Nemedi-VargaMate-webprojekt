@@ -1,9 +1,9 @@
 body{
     background-image: url("../pictures/index_background.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
     background-attachment: fixed;
     color: rgb(133, 0, 0);
+    background-size: cover;
 }
 p{
     color: rgb(133, 0, 0);
@@ -33,6 +33,10 @@ a:active {
 .jegyzet{
     margin-right: 1%;
     margin-left:80%;
+    font-size: 20px;
+    background-color: rgba(102, 102, 102, 0.699);
+    border-radius: 5%;
+    color: rgb(201, 0, 0) ;
 }
 
 #epul{

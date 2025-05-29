@@ -46,7 +46,7 @@ body{
     background-image: url("../pictures/epületek_background.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 110%;
+    background-size: cover;
     color: rgb(104, 0, 0);
 }
 .pulet_kepek{
