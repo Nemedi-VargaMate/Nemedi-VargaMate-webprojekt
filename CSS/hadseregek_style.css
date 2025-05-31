@@ -17,8 +17,7 @@ a:link {
     background-color: transparent;
     text-decoration: none;
 }
-a:visited {
-    color: rgb(0, 101, 189);
+a:visited {    color: rgb(0, 101, 189);
     background-color: transparent;
     text-decoration: none;
 }
@@ -57,12 +56,30 @@ h1{
     margin-bottom: 10%;
     color: rgb(226, 0, 0);
 }
-div{
-    width: 100px;
-    transition: width 5s;
-    float: right;
+@keyframes mymove1 {
+  from {left: 10px;}
+  to {left: 780px ;}
 }
-div:hover {
-    width: 500px;
-    float: right;
+@keyframes mymove2 {
+  from {left: 780px;}
+  to {left: 10px ;}
+}
+.jobbrol{
+    width: 40%;
+    position: relative;
+    animation: mymove1 5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.ballrol{
+    width: 40%;
+    position: relative;
+    animation: mymove2 5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-direction: alternate;
 }
