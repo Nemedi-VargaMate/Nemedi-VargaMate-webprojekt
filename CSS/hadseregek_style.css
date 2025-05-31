@@ -63,5 +63,6 @@ div{
     float: right;
 }
 div:hover {
- width: 500px;
+    width: 500px;
+    float: right;
 }
