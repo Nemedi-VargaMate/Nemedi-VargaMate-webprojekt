@@ -7,15 +7,16 @@
     <link rel="stylesheet" href="CSS/bemutatas_style.css">
 </head>
 <body>
-    <img class="epulet_kepek" src="pictures/bemutatas oldalkep2.jpeg" alt="">
-    <img class="epulet_kepek" src="pictures/bemutatas oldalkep.jpeg" alt="">
-    <h1><strong><i>Iron Order 1919</i></strong></h1>
-        <h2>A játék célja</h2>
+    <img id="ballrol" class="epulet_kepek" src="pictures/bemutatas oldalkep2.jpeg" alt="">
+    <div id="szöveg">
+        <h1><strong><i>Iron Order 1919</i></strong></h1>
+        <div id="szövegbelsö">
+            <h2>A játék célja</h2>
             <p>A játék célja, hogy a játékos egy jó gazdasággal rendelkező birodalmat hozzon létre.</p>
         <h2>A játék mente</h2>
             <p>
-                A játékos csatlakozik egy induló térképhez, ahol kiválaszthatja (ha van még több szabad ország), hogy meklyik országgal lesz. A térképekhez csak az első nap lehet 
-                csatlakozni. A játékos a belépésétől kezdve tu8dja fejleszteni a gazdaságát, termelhet hadsereget, köthet szövetségeket, kereskedhet, és támadni is tudud, ha a 
+                A játékos csatlakozik egy induló térképhez, ahol kiválaszthatja (ha van még több szabad ország), hogy meklyik országgal lesz. A térképekhez általában az első 5 nap lehet 
+                csatlakozni. A játékos a belépésétől kezdve tudja fejleszteni a gazdaságát, termelhet hadsereget, köthet szövetségeket, kereskedhet, és támadni is tudud, ha a 
                 térképen nics beállítva egy külön békés időszak. 
             </p>    
         <h2>A játék típusai</h2>
@@ -51,6 +52,14 @@
                 tudjuk termelni. A gazdaságot csak olyan szinten tudjuk irányítani hogy a termelésünket fejlesztjük vagy éppen a többlet erőforrásokat eladjuk és veszünk 
                 olyan erőfrorrásokat melyből hiányt szenvedünk. A az épületek tipusait <a href="epuletek.html">itt</a> tudod megnézni.
             </p>
-        <p>Még több információt <a href="https://ironorder1919.fandom.com/wiki/Iron_Order_1919_Wiki">itt</a> találhatsz : <a href="https://ironorder1919.fandom.com/wiki/Iron_Order_1919_Wiki">https://ironorder1919.fandom.com/wiki/Iron_Order_1919_Wiki</a> </p>
+        </div>
+        <p id="külsölink">
+            Még több információt <a href="https://ironorder1919.fandom.com/wiki/Iron_Order_1919_Wiki">itt</a> találhatsz : <a href="https://ironorder1919.fandom.com/wiki/Iron_Order_1919_Wiki">https://ironorder1919.fandom.com/wiki/Iron_Order_1919_Wiki</a>
+            <br><a href="index.html">Viszza a főoldalra</a>
+        </p>
+        <button id="gomb" onclick="document.location='bemutatas.html'">Vissza az oldal tetejére</button>
+    </div>
+    <br>
+    <img id="jobbrol" class="epulet_kepek" src="pictures/bemutatas oldalkep.jpeg" alt="">
 </body>
 </html>

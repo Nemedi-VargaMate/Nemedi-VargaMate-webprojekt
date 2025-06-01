@@ -24,3 +24,54 @@ a:active {
     background-color: transparent;
     text-decoration: underline;
 }
+@keyframes mymove1 {
+  from {left: 0vw;}
+  to {left: 60vw ;}
+}
+@keyframes mymove2 {
+  from {left: 60vw;}
+  to {left: 0vw;}
+}
+#jobbrol{
+    width: 40%;
+    position: relative;
+    animation: mymove1 5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#ballrol{
+    width: 40%;
+    position: relative;
+    animation: mymove2 5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-direction: alternate;
+}
+#szöveg{
+    background-color: rgba(255, 255, 255, 0.521);
+    border-radius: 10%;
+}
+h1{
+    text-align: center;
+}
+#külsölink{
+    text-align: center;
+}
+#szövegbelsö{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+#gomb{
+    width: 10%;
+    margin-left: 45%;
+    margin-right: 45%;
+    background-color: rgb(247, 0, 0);
+    border-color: black;
+    border-radius: 10%;
+    box-shadow: 20px;
+    border-width: 10%;
+}
